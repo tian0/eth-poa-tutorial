@@ -392,6 +392,12 @@ The command below is a generic one to send ether (the cryptocurrency unit for Et
 eth.sendTransaction({'from':eth.coinbase, 'to':''RECEIPIENT_NODE_ADDRESS'', 'value':web3.toWei(13.5, 'ether')})
 ```
 
+For example, if you'd like to send from Node1 to Node2, enter the following from Node1's console:
+
+```
+eth.sendTransaction({from:'0x1a4b71b48498237d2817be049b4bc43fad971bca', to:'0xf59a61caf69f7216b83f063c2b9b712b82e50e84', value:web3.toWei(1, 'ether')})
+```
+
 If it's successful, the console will print a long string, which is your `Receipt Transaction Hash`. It's like your transaction ID that you can use to look up your transaction, and its status, later.
 
 To see the changes caused by the transaction, enter this command into all three nodes' `geth console`:
