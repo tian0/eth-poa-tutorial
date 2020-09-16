@@ -1,0 +1,32 @@
+=============== Sep 16, 2020 (EDT) ===============
+12:35:56.298842 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:35:56.317644 db@open opening
+12:35:56.319199 version@stat F·[] S·0B[] Sc·[]
+12:35:56.330218 db@janitor F·2 G·0
+12:35:56.330338 db@open done T·12.633035ms
+12:35:56.335915 db@close closing
+12:35:56.336293 db@close done T·375.839µs
+=============== Sep 16, 2020 (EDT) ===============
+12:36:08.448967 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:36:08.449595 version@stat F·[] S·0B[] Sc·[]
+12:36:08.449621 db@open opening
+12:36:08.449690 journal@recovery F·1
+12:36:08.451671 journal@recovery recovering @1
+12:36:08.463964 memdb@flush created L0@2 N·623 S·50KiB "\x02d\xfc..\x19Ba,v429":"\xfe\x88\xcf..H\xef\xcc,v362"
+12:36:08.466291 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+12:36:08.494731 db@janitor F·3 G·0
+12:36:08.494784 db@open done T·45.153306ms
+12:45:31.269787 db@close closing
+12:45:31.270170 db@close done T·382.307µs
+=============== Sep 16, 2020 (EDT) ===============
+12:45:46.852371 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:45:46.852820 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+12:45:46.852850 db@open opening
+12:45:46.852927 journal@recovery F·1
+12:45:46.854910 journal@recovery recovering @3
+12:45:46.867887 memdb@flush created L0@5 N·1038 S·53KiB "Dat..ion,v625":"r\x00\x00..\x10\\\xbd,v1658"
+12:45:46.869901 version@stat F·[2] S·103KiB[103KiB] Sc·[0.50]
+12:45:46.900518 db@janitor F·4 G·0
+12:45:46.900577 db@open done T·47.714836ms
+12:54:03.533948 db@close closing
+12:54:03.534054 db@close done T·104.778µs
